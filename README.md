@@ -1,8 +1,9 @@
-# Web Crawler in JavaScript 
+# Web Crawler in JavaScript
 
 Start with a page, any page. Crawl a total of 100 pages and create a basic search index for words.
 
 ## High Level Design
+
 1. Fetch a Page
 2. Extract Content: Title of the page, Body of the page
 3. Extract all Links
@@ -10,9 +11,8 @@ Start with a page, any page. Crawl a total of 100 pages and create a basic searc
 5. Store the content in an organised fashion for retrieval later.
 6. Avoid recursion by maintain a list of links already visited.
 
-
 ## Advanced features that can be tackled later:
+
 1. Respect `/robots.txt`
 2. Watch for cache tags and revisit or update page after expiry
 3. Make the script configurable.
-
