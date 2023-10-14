@@ -2,6 +2,18 @@
 
 Start with a page, any page. Crawl a total of 100 pages and create a basic search index for words.
 
+## Setup
+
+Install dependencies by running
+
+```npm install```
+
+to let the program call any URL you can run the local script as
+```npm run crawl <url>```
+
+the `url` in the above command can be anything if no URL is passed, it fallbacks to an example URL.
+
+
 ## High Level Design
 
 1. Fetch a Page
