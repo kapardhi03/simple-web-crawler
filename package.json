@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "crawl": "node src/crawl.js"
   },
   "keywords": [
     "web-crawler",
@@ -13,11 +13,7 @@
   ],
   "author": "Swanand Pagnis",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  },
   "dependencies": {
-    "lodash": "^4.17.21",
     "node-fetch": "^3.3.2",
     "node-html-parser": "^6.1.10"
   }
